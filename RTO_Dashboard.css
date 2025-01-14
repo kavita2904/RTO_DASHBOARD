@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(202, 170, 29);
+}
+
+nav{
+    background-color: rgb(191, 35, 163);
+}
+
+nav .img1{
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+}
+
+nav .img2, .img3{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+nav .imginner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+nav p{
+    text-align: center;
+    color: #fff;
+}
+
+nav .para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #fff;
+}
+
+/* Styling for the card main */
+
+.card-main{
+    width: 95%;
+    display: flex;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    height: 14rem;
+}
+
+.card-main .img-main{
+    height: 6rem;
+    width: 4rem;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.card-main h3{
+    text-align: center;
+    color: #616060;
+    padding: .5rem;
+}
+
+.card-main .empty {
+    width: 10rem;
+    background-color: #616060;
+    height: .2rem;
+    margin: auto;
+    display: block;
+    margin-top: -.5rem;
+}
+
+.card-main h4 {
+    text-align: center;
+    margin-top: .6rem;
+    color: #7e7d7d;
+    font-size: 1.2rem;
+}
+
+/* Styling for the card-1 */
+
+.card-1{
+    border: .1rem solid #ffffff;
+    background: transparent;
+    width: 99%;
+    margin: auto;
+    display: block;
+    border-radius: .2rem ;
+    margin-top: 1rem;
+    height: 15rem;
+    border-radius: .4rem;
+    
+}
+
+.card-1 .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 .search .box1 , .box2{
+    height: 13rem;
+    width: 14rem;
+    background-color: #fff;
+    margin: .3rem;
+    border-radius:.3rem  ;
+
+}
+
+.card-1 .search .box1 img , .box2 img{
+    height: 6rem;
+    width: 6rem;
+    margin-top: .5rem;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.card-1 .empty{
+    width: 6rem;
+    background-color: #616060;
+    height: .2rem;
+    margin: auto;
+    display: block;
+    margin-top: -.5rem;
+    margin-top: .2rem;
+}
+
+.card-1 P {
+    text-align: center;
+    font-weight: bold;
+}
